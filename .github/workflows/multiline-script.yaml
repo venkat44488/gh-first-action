@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greet
-        run: echo "hellow message"
+        run: echo "hello message"
       - name: good bye
-        run: say goodbye
+        run: echo "say goodbye"
   jobs2:
     runs-on: ubuntu-latest
     steps:
