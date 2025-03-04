@@ -1,10 +1,10 @@
-name: my workflow
+name: terraform plan
 on: workflow_dispatch
 jobs:
-  jobs1:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: greeting
-        run: echo "hello world"
-      - name: say good bye
+        run: echo "hello"
+      - name: "say good bye"
         run: echo "good bye"
